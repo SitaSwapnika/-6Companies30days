@@ -9,6 +9,7 @@ def encode(arr):
             out=out+arr[i]
             out=out+str(count)
             count=1
+    i=len(arr)-1
     out +=arr[i]+str(count)
     return out
 if __name__=='__main__':
